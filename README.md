@@ -72,13 +72,28 @@ The PDF follows the same parts.
 | Part | Start here | What is in it |
 |---|---|---|
 | Getting started | [getting-started.md](./method/getting-started.md) | The first assessment: what to copy, fill and hold; [offerings](./offerings.md) and [estimation](./method/estimation.md) |
-| Method | [playbook.md](./method/playbook.md) | The steps with their weeks; [records](./method/records.md), [report](./method/report.md), [lessons](./method/lessons.md), [agents and people](./method/agent-harness.md) |
+| Method | [playbook.md](./method/playbook.md) | The steps with their weeks; [records](./method/records.md), [report](./method/report.md), [lessons](./method/lessons.md), [agents and people](./method/agent-harness.md), [traceability to Google SRE and DORA](./method/traceability.md) |
 | Observability assessment | [maturity-model.md](./method/maturity-model.md) | 12 dimensions × 5 levels; the [worked example](./example/worked-example.md); the [specification set](./templates/spec-set/README.md) an assessment leaves behind |
 | SRE assessment | [sre/README.md](./sre/README.md) | Formats, calendar, estimation; the [10-dimension model](./sre/maturity-model.md); its worked example and templates |
 | Agent route | [tools/agent/](./tools/agent/) | The stage prompts, the rules every stage shares, [setup and paths](./tools/agent/setup.md) |
 | Tools | [tools/](./tools/) | Code scan and estate export, spec linter, maturity calculator, baseline numbers, the stage gate, report PDF |
 | Templates | [templates/](./templates/) | Intake questionnaire to acceptance record: data request, interview guide, finding, report, roadmap, statement of work, review checklists |
 | Practice | [practice/](./practice/) | Building a practice around the kit, the pilot for a new lead; [backlog](./backlog.md) |
+
+## Foundations and continuity
+
+The kit does not invent reliability practice. Its SRE model and the SLO, alerting and incident
+parts of its observability model build on Google's site reliability engineering, as the two
+books on sre.google describe it, and its change-safety criteria use the DORA delivery metrics.
+What the kit adds is how a capability is shown: every score rests on evidence read in the tool,
+not scored is not level 1, interviews alone cap a score at level 2, and the result is a profile,
+never an average.
+
+The kit names its sources and does not copy their frameworks: dimensions, levels and wording are
+its own. [method/traceability.md](./method/traceability.md) traces each of the 22 dimensions to
+the closest chapter of the books and to the DORA metric it touches, labelled «совпадает»
+(matches), «расширяет» (extends) or «добавляет» (adds), and lists what the books cover that the
+kit does not.
 
 ## Releases
 
