@@ -22,6 +22,7 @@ KIT_FILES=(
   method/report.md
   method/lessons.md
   method/agent-harness.md
+  method/week-zero-access.md
 
   "PART: Observability assessment | The observability maturity model, a worked example and the specification set an assessment leaves behind."
   method/maturity-model.md
